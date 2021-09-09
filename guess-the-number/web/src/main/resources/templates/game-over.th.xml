@@ -1,0 +1,22 @@
+<thlogic>
+    <attr
+        sel="#head"
+        th:replace="~{fragments/head :: headFragment}"/>
+    <attr
+        sel="#game-over-heading"
+        th:text="#{game.title}"/>
+    <attr
+        sel="#game-over"
+        th:text="#{game.over.heading}"/>
+    <attr
+        sel="#result-message"
+        th:text="${__${T   (shantanu.maven.util.AttributeNames).RESULT_MESSAGE}__}"/>
+    <attr
+        sel="#restart"
+        th:href="@{__${T   (shantanu.maven.util.GameMappings).RESTART}__}"
+        th:text="#{game.play}"/>
+    <attr
+        sel="#home"
+        th:href="@{__${T   (shantanu.maven.util.GameMappings).HOME}__}"
+        th:text="#{game.over.home}"/>
+</thlogic>

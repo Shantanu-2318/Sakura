@@ -1,0 +1,23 @@
+<thlogic>
+    <attr
+        sel="#head"
+        th:replace="~{fragments/head :: headFragment}"/>
+    <attr
+            sel="#main-heading"
+          th:text="#{game.title}"/>
+    <attr
+        sel="#main-message"
+        th:text="${__${T   (shantanu.maven.util.AttributeNames).MAIN_MESSAGE}__}"/>
+    <attr
+        sel="#result-message"
+        th:text="${__${T   (shantanu.maven.util.AttributeNames).RESULT_MESSAGE}__}"/>
+    <attr
+        sel="#form-action"
+        th:action="@{__${T   (shantanu.maven.util.GameMappings).PLAY}__}"/>
+    <attr
+        sel="#guess-label"
+        th:text="#{game.enterGuess}"/>
+    <attr
+        sel="#submit"
+        th:value="#{game.submit}"/>
+</thlogic>

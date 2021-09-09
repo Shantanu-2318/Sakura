@@ -1,0 +1,9 @@
+shantanu\maven\util\ViewNames.class
+shantanu\maven\util\GameMappings.class
+shantanu\maven\WebConfig.class
+shantanu\maven\controllers\GameController.class
+shantanu\maven\GameServiceImpl.class
+shantanu\maven\WebMain.class
+shantanu\maven\util\AttributeNames.class
+shantanu\maven\util\thymeleaf\DecoupledLogicSetup.class
+shantanu\maven\GameService.class

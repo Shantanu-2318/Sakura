@@ -1,0 +1,13 @@
+shantanu\spring\config\WebAppInitializer.class
+shantanu\spring\service\TodoItemServiceImpl.class
+shantanu\spring\controllers\DemoController.class
+shantanu\spring\service\DemoServiceImpl.class
+shantanu\spring\model\TodoItem.class
+shantanu\spring\controllers\TodoItemController.class
+shantanu\spring\service\DemoService.class
+shantanu\spring\model\TodoData.class
+shantanu\spring\config\WebConfig.class
+shantanu\spring\service\TodoItemService.class
+shantanu\spring\util\Mappings.class
+shantanu\spring\util\AttributeNames.class
+shantanu\spring\util\ViewNames.class

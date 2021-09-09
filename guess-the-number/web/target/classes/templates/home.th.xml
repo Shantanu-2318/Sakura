@@ -1,0 +1,13 @@
+<thlogic>
+    <attr
+        sel="#head"
+        th:replace="~{fragments/head :: headFragment}"/>
+    <attr
+        sel="#heading"
+        th:text="#{game.home.heading}"/>
+
+    <attr
+        sel="#play"
+        th:href="@{__${T   (shantanu.maven.util.GameMappings).PLAY}__}"
+        th:text="#{game.play}"/>
+</thlogic>
